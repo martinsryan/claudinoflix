@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: #e90000;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.filme{
+    text-align: center;
+}
+.cartaz{width: 200px;}
+
+
+.filme-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
