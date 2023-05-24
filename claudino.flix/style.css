@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: #e90000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
     text-align: center;
@@ -9,10 +10,31 @@ h2{
 .filme{
     text-align: center;
 }
-.cartaz{width: 200px;}
+.cartaz{width: 200px;
+height: 170px;}
 
 
 .filme-todos{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+}
+
+.containerbotao{
+    background-color: green;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 8px;
+}
+.botao{
+    text-align: center;
+
+}
+
+.informacao{
+    color: white;
+    font-size: 22px;
+    display: flex;
+}
+.imagem{
+    width:  40%;
 }
